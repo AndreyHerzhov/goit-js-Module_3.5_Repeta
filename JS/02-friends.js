@@ -1,14 +1,15 @@
-const friends = [
-    {name: 'Mango', online: false},
-    {name: 'Kiwi', online: true},
-    {name: 'Poly', online: true},
-    {name: 'Ajax', online: false},
-];
+// const friends = [
+//     {name: 'Mango', online: false},
+//     {name: 'Kiwi', online: true},
+//     {name: 'Poly', online: true},
+//     {name: 'Ajax', online: false},
+// ];
 
 // console.table(friends);
 
 // for (const friend of friends){
 //     console.log(friend);
+// }
 
 //     friend.newprop = 555; // newprop - это новое свойство
 // };
@@ -17,21 +18,23 @@ const friends = [
 
 
 
+
+
 /*
  * Ищем друга по имени
 */
 
-const findFriendByName = function(allFriends, name){
-    for (const friend of allFriends){
-        // console.log(friend.name)
+// const findFriendByName = function(allFriends, name){
+//     for (const friend of allFriends){
+//         // console.log(friend.name)
 
-        if (friend.name === name){
-            return 'НАШЛИ!!!'
-        }
-    }
-    return 'НЕ НАШЛИ!!!'
+//         if (friend.name === name){
+//             return 'НАШЛИ!!!'
+//         }
+//     }
+//     return 'НЕ НАШЛИ!!!'
      
-}
+// }
 
 // console.log(findFriendByName(friends, 'Poly'));
 // console.log(findFriendByName(friends, 'Chelsy'));
@@ -119,14 +122,15 @@ const findFriendByName = function(allFriends, name){
  
 
 
-const x = {
-    a: 5,
-    b: 2,
-    c: 60,
-    d: 22,
-    e: 90,
-}
+// const x = {
+//     a: 5,
+//     b: 2,
+//     c: 60,
+//     d: 22,
+//     e: 90,
+// }
 
-const keys = Object.keys(x);
+// const keys = Object.keys(x);
 
-console.log(keys.length)
+// const keys = Object.keys(x);
+
